@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@400;700&display=swap');
+
+
+.box_one{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+}
+
+.text_beats{
+    display: flex;
+    width: 50vw;
+    background-color: #48484a;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.phone_beats{
+    display: flex;
+    width: 50vw;
+    background-color: #fb9985; 
+    align-items: center;
+}
+
+.icon_beats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    
+}
+
+.logo_beats{
+    width: 120px;
+    -webkit-filter: drop-shadow(10px 10px 10px rgba(0 0 0 / 90%)); 
+    filter: drop-shadow(10px 10px 10px rgba(0 0 0 / 90%));
+}   
+
+.text_explication{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+
+.title_review{
+    color: #fff;
+    font-size: 3.8rem;
+    font-weight: lighter;
+}
+
+.paragraph{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+.space{
+    margin-top: 30px;
+}
+
+@keyframes float {
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-30px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+
+.fone_pink{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    left:-80px;
+    -webkit-filter: drop-shadow(10px 10px 10px rgba(0 0 0 / 90%)); 
+    filter: drop-shadow(10px 10px 10px rgba(0 0 0 / 90%));  
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+
+/* Corpo Dois*/
+
+
+.box_two{
+    width: 100%;
+    height: 55vh;
+    background-color: aqua;
+    flex-direction: row;
+    display: flex;
+}
+
+.image_one{
+    background: url('../assets/mulher_fone.jpg');
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vw;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: flex-end;
+}
+
+.title_image{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.link_image{
+    color: #b3e3b5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.link_image:hover{
+    color: #629e65;
+}
+
+
+.image_two{
+    background: url('../assets/dois_fones.jpg');
+    display: flex;
+    width: 50vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: flex-end;
+}
+
+
+/* Corpo Três*/
+
+.box_three{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fb9985; 
+}
+
+.box_cpthree{
+    background-color: #fff;
+    width: 65rem;
+    height: 60vh;
+    display: flex;
+    padding: 40px;
+}
+
+
+.text_one, .text_two{
+    display: flex;
+    flex: 1;
+}
+
+.imagePhoneWithe{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagePhoneWithe img{
+    width: 350px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.text_one{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.title_cpthree{
+    font-size: 3rem;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.text_cpthree{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    width: 290px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.text_two{
+    align-items : flex-end;
+    flex-direction: column;
+}
+
+.text_two p{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.img_text_two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+
+.text_two img{
+    width: 250px;
+    height: 250px;
+    border-radius:900px;
+    object-fit: cover;
+}
+
+
+/* Corpo Quatro*/
+
+.box_four{
+    background: url('../assets/homem_fone.jpg');
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 85vh;
+}
+
+.image_text_four{
+    width: 50%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 60px;
+}
+
+.title_four{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.text_four{
+    width: 450px;
+    color: #fff;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+/* Corpo Cinco*/
+
+.box_five{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    background-color:#1c1c1c;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_five{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.text_five a{
+    color: #fff;
+}
+
+.social{
+    display: flex;
+    width: 20rem;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.social img{
+    width: 60px;
+    margin: 0px 20px 0px 20px
+    
+}
